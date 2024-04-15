@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "alembic-tools"
+version = "0.1.4"
+description = "Tools anhanced alembic model"
+authors = ["Smairon <man@smairon.ru>"]
+readme = "README.md"
+repository = "https://github.com/smairon/alembic-tools"
+packages = [{ include = "alembic_tools" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.20"
+alembic = "^1.12.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
