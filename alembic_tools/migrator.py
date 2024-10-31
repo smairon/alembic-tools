@@ -137,7 +137,7 @@ class Migrator:
         utils.mkdirs(path)
 
         alembic_revision(
-            config,
+            self._config,
             version_path=path,
             message=message,
             autogenerate=autogenerate,
